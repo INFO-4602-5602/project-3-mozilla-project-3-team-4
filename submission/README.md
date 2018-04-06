@@ -17,7 +17,7 @@ Gongyuan Xing(DominicXing): I'm very interested in the 5th Asian female student 
 
 Yonghao Zhang(SilentSingerZ): I plotted a set of bar charts by using the data cleaned by Hathaway with attributes of every country and every all internet connected devices. And I combined everyone's code to a single one as a website, which including Dynamic Queries and excellent UI design. (First Page)
 
-Hathaway Zhang(hathaaaway): Cleaning the raw data "NCWIT_DataV2_RawData.csv". Using the python notebook to clean the major, nan values, and output the dataset to several csv files. Also used the cleaned data to plot a histgram telling the average ACT and SAT scores of each major. (Second Page)
+Hathaway Zhang(hathaaaway): For this project, I cleaned the raw data and export four cleaned csv for plotting. The raw data is divided into three parts according to its content. Using the factors that will influence purchase, I create a colormap plot based on the bokeh package through python notebook. (Second Page)
 
 <h2>How to run our project:</h2>
 
