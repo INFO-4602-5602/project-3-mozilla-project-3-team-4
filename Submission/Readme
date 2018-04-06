@@ -10,7 +10,7 @@ Tianlun Zhao(BlakeTZ): I'm curious about the each race distribution of every maj
 
 Yi Man(yima1736): I clean the "major.csv" data and create a visualization connent with this data. I use d3 to create the viusaliazation, so the debug part is the hardest part for me. There is still a problem that I did not figure out. I want to create a function which can help users to sort the data such as if you click a button, the data will sort from smallest to largest. I am still working on this one. (Fourth Page)
 
-Gongyuan Xing(DominicXing): I sort the dataset related to following keywords： China, WIFI, Smart TV, English. And then I plot the graph Prive over Feature related to above. 
+Gongyuan Xing(DominicXing): I sort the dataset related to following keywords： China, WIFI, Smart TV, English. And then I plot the graph Prive over Feature related to above. First I use Tableou plot the original graph so I can know what the graph should be like. And then I use Excel to find out related data and then code the program. 
 
 Yonghao Zhang(SilentSingerZ): I plotted a set of line graphs and a streamflow graph by using the data cleaned by Hathaway with attributes of Race, year and student number. And I combined everyone's code to a single one as a website, which including Dynamic Queries and excellent UI design. (First Page)
 
