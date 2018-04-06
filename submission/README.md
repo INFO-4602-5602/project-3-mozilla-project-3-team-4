@@ -9,7 +9,7 @@ We analyzed this data in Excel at the first place and we found that the data can
 
 <h2>Team roles for each individual:</h2>
 
-Tianlun Zhao(BlakeTZ): I'm curious about the each race distribution of every majors in college. So I used python notebook to plot a pie chart by using the data cleaned by Hathaway with race_major. It is about percentage of each race in each major, and it can show us that each race is good at and interested in which major.(Third Page)
+Tianlun Zhao(BlakeTZ): For this project, I worked on that whether people are familiar with some technical terms or not in different countries. So Yi and I plotted a set of bar chart by using the data cleaned by Yi.(Third Page)
 
 Yi Man(yima1736): I help Tianlun to clean the data and create the visualization. We use python jupyter notebook to clean the data. And we use d3 to create the visualization.
 
