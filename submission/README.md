@@ -11,7 +11,7 @@ We analyzed this data in Excel at the first place and we found that the data can
 
 Tianlun Zhao(BlakeTZ): I'm curious about the each race distribution of every majors in college. So I used python notebook to plot a pie chart by using the data cleaned by Hathaway with race_major. It is about percentage of each race in each major, and it can show us that each race is good at and interested in which major.(Third Page)
 
-Yi Man(yima1736): I clean the "major.csv" data and create a visualization connent with this data. I use d3 to create the viusaliazation, so the debug part is the hardest part for me. There is still a problem that I did not figure out. I want to create a function which can help users to sort the data such as if you click a button, the data will sort from smallest to largest. I am still working on this one. (Third Page)
+Yi Man(yima1736): I help Tianlun to clean the data and create the visualization. We use python jupyter notebook to clean the data. And we use d3 to create the visualization.
 
 Gongyuan Xing(DominicXing): I'm very interested in the 5th Asian female student number. I spent a lot of time on cleaning the data and finally, I got the 5th Asian female student number in different enrollment years. I used d3js in html plot a line chart for my data, which illustrated the trend of 5th Asian female student(Fourth Page)
 
