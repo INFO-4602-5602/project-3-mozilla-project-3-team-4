@@ -1,78 +1,27 @@
-# Project 1
-<h2>Project 1:</h2>
-Due 3.16.2018 by 11:59pm through GitHub Classroom 
-Projects may be submitted up to 3 days late, with a 10% penalty per day.
+# Team 4 Project 3
+<h2>Information about your visualizations and what they show. Include information about interactions as appropriate.</h2>
 
-<h2>Overview: </h2>
-You've been provided with a dataset from the National Center for Women in Technology (NCWIT) exploring enrollments in Computing & Engineering disciplines over time. The goal of the project is to create visualizations that allow the stakeholders to effectively explore this data to answer different questions related to the diversity and inclusivity initiatives of NCWIT. 
+Our website has five sections. The first section, made by Yonghao, analyzed the relationship between race and student number in different enrollment years. The second section, made by Hathaway, illustrated the average enrollment ACT and SAT math scores of each major. The third section, made by Gongyuan, plotted the line graph of 5th Asian female student number in different School years, specifically. The fourth section, made by Yi, created a bar chart visualization of relationship between student number and major. The fifth section, made by Tianlun, used pie charts to illustrate race distributions in some popular majors.
 
-<h2>Minimum Requirements:</h2> 
-Your project must:
-<ul>
-<li> Include a README.md file that outlines:
-  <ul>
-  <li>Information about your visualizations and what they show. Include information about interactions as appropriate.</li>
-  <li>Your design process (e.g., how did you go about designing, building, and refining your system? Why did you choose these representations?)</li>
-  <li>Your team roles for each individual</li>
-  <li>How to run your project</li></ul></li>
-<li>Include at least three unique visualizations:
-  <ul>
-  <li>One visualization must include some element of time</li>
-  <li>One visualization must not include any elements of time</li>
-  <li>Each visualization must be interactive</li>
-  <li>Your set of three visualizations should support at least one meaningful comparison between related data attributes</li>
-  <li>Your set of three visualizations should visualize at least five data attributes total</li></ul></li>
-<li>Be able to work with any dataset of this format (e.g., the numbers are interchangable but the columns and document titles are fixed).</li>
-</ul>
+<h2>Your design process (e.g., how did you go about designing, building, and refining your system? Why did you choose these representations?)</h2>
 
-<h2>Above and Beyond:</h2> 
-The above requirements are the minimum for a passing grade on this project. Some ideas to improve your project include:<ul>
-<li>Dashboarding: Show all three visualizations as part of the same screen.</li>
-<li>Added Visualizations: Provide more than three visualizations</li>
-<li>Dynamic Queries: Including UI widgets that allow you to change the current data field</li>
-<li>Missing Data: Not all rows have data for all columns. Design ways of handling missing data intelligently.</li>
-<li>Coordinated Views: Have two or more visualizations that interact with one another as you move through the data.</li>
-<li>Overview+Detail: Provide a pair of views that allow viewers to retain context as they navigate your data.</li>
-<li>Style: Keep the style consistent across all your views, with an eye towards intelligently applying visual design.</li></ul>
+We choose to design and present our project as a website. At the first place, each and every member of our group clean the data and plot some graphs. Since some of us use different platforms, we finally decide to combine our code to a single html file and at the same time, linked hathaway's Jupyter Notebook and embled Tianlun's ten pie charts. 
 
-<h2>Platforms:</h2> 
-You can use any development platform you'd like so long as it is not proprietary (exception: MatLab as we have a University License). Your project readme should include step-by-step instructions on how to run your projects and it should run without me having to modify the code. You are welcome to use different platforms for each visualization.
+<h2>Team roles for each individual:</h2>
 
-Some platforms to look at include:
-<ul>
-<li>D3</li>
-<li>R with ggplot</li>
-<li>WebGL or Three.js</li>
-<li>Processing or ProcessingJS</li>
-<li>Google Maps API</li>
-<li>Open Street Map API</li>
-<li>Bokeh</li>
-<li>Creatively engineered tangible/audio artifacts</li>
-</ul>
+Tianlun Zhao(BlakeTZ): I'm curious about the each race distribution of every majors in college. So I used python notebook to plot a pie chart by using the data cleaned by Hathaway with race_major. It is about percentage of each race in each major, and it can show us that each race is good at and interested in which major.(Fifth Page)
 
-If you would like to use a platform that will push you in creative ways but may not support all of the requirements of the project, please come talk to me. 
+Yi Man(yima1736): I clean the "major.csv" data and create a visualization connent with this data. I use d3 to create the viusaliazation, so the debug part is the hardest part for me. There is still a problem that I did not figure out. I want to create a function which can help users to sort the data such as if you click a button, the data will sort from smallest to largest. I am still working on this one. (Fourth Page)
 
-<h2>Submissions:</h2>
-All submissions must be made through GitHub with a timestamp by 11:59pm on 3.16. Your submission files should include:
-<ul>
-<li>Your README</li>
-<li>Your code and/or project</li>
-</ul>
-Note that each group only needs to submit one file. 
+Gongyuan Xing(DominicXing): I'm very interested in the 5th Asian female student number. I spent a lot of time on cleaning the data and finally, I got the 5th Asian female student number in different enrollment years. I used d3js in html plot a line chart for my data, which illustrated the trend of 5th Asian female student(Third Page)
 
-Each member of the team should also send me a project post-mortem through email with the subject line "INFO 4602/5602: Project 2" documenting the following:
-* What you worked on in the project
-* What your teammates worked on in the project
-* How you would rate your performance and why
-* How you would rate each teammates' performance and why
+Yonghao Zhang(SilentSingerZ): I plotted a set of line graphs and a streamflow graph by using the data cleaned by Hathaway with attributes of Race, year and student number. And I combined everyone's code to a single one as a website, which including Dynamic Queries and excellent UI design. (First Page)
 
-These documents will be kept confidential and will factor into project grades. If you feel all of the team worked hard and performed well, please don't hesitate to tell me that (no curving is necessary on performance reviews :-))! Also, please keep in mind that different team members have different skillsets, roles, and experiences.
+Hathaway Zhang(hathaaaway): Cleaning the raw data "NCWIT_DataV2_RawData.csv". Using the python notebook to clean the major, nan values, and output the dataset to several csv files. Also used the cleaned data to plot a histgram telling the average ACT and SAT scores of each major. (Second Page)
 
-<h2>Grading: </h2>
-The project will be scored out of 100 points total. Your project will be graded on four different criteria:
-<ol>
-<li> Creativity</li>
-<li> Technical execution</li>
-<li> Design (both aesthetic and your visualization choices)</li>
-<li> Project Post-Mortems</li>
-</ol>
+<h2>How to run our project:</h2>
+
+1. Download and unzip the Submission folder
+2. Run the local server
+3. Go to directory of submission
+4. The 2nd visualization Score vs Major would only work in Submission/Code/Hathaway/project2.ipynb
