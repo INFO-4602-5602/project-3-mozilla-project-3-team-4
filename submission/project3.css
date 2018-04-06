@@ -1,0 +1,65 @@
+body {
+    font-family: Finger Paint;
+    font-size: 15px;
+}
+h1{
+  margin-left: 20;
+}
+
+h2 {
+  margin-left: 20;
+}
+
+.rectangle {
+	fill: steelblue;
+}
+.rectangle:hover {
+	fill: orange;
+}
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.ractangle2 {
+	fill: purple;
+}
+.ractangle2:hover {
+	fill: red;
+}
+
+.axis2 {
+  font: 10px sans-serif;
+}
+
+.axis2 path,
+.axis2 line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+.point {
+    fill: #f00;
+    stroke: #000;
+}
+
+.label {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+  font-size: 12px Bungee Hairline;
+}
+
+.extra { font-size: 200%}
