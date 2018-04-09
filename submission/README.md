@@ -13,7 +13,8 @@ Tianlun Zhao(BlakeTZ): For this project, I worked on that whether people are fam
 
 Yi Man(yima1736): I help Tianlun to clean the data and create the visualization. We use python jupyter notebook to clean the data. And we use d3 to create the visualization.
 
-Gongyuan Xing(DominicXing): I'm very interested in the 5th Asian female student number. I spent a lot of time on cleaning the data and finally, I got the 5th Asian female student number in different enrollment years. I used d3js in html plot a line chart for my data, which illustrated the trend of 5th Asian female student(Fourth Page)
+Gongyuan Xing(DominicXing):I sort the dataset related to following keywords： China, WIFI, Smart TV, English. And then I plot the graph Prive over Feature related to above. First I use Tableou plot the original graph so I can know what the graph should be like. And then I use Excel to find out related data and then code the program. 
+ (Fourth Page)
 
 Yonghao Zhang(SilentSingerZ): I plotted a set of bar charts by using the data cleaned by Hathaway with attributes of every country and every all internet connected devices. And I combined everyone's code to a single one as a website, which including Dynamic Queries and excellent UI design. (First Page)
 
